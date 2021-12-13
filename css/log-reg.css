@@ -1,0 +1,51 @@
+
+.backAll {
+    position: relative;
+    margin-left: 0;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.reg {
+    margin: 100px 450px 150px 450px;
+    text-align: center;
+    display: block;
+    border: 1px solid silver;
+    border-top: 2px solid gray;
+    border-radius: 10px;
+    background: rgb(235,235,235);
+    background: linear-gradient(0deg, rgba(235,235,235,0.5) 0%, rgba(255,255,255,0.5) 100%);
+    box-shadow: 0 2px 5px -2px black;
+}
+
+.reg input {
+    display: block;
+    text-align: center;
+    padding: 2px 5px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin: 5px auto;
+}
+
+.reg-submit{
+    border: 1px solid silver;
+    border-radius: 5px;
+    background: rgb(235,235,235);
+    background: linear-gradient(0deg, rgba(235,235,235,1) 0%, rgba(255,255,255,1) 100%);
+    transition: all 0.3s ease;
+}
+
+.reg-submit:hover {
+    background: grey;
+    color: white;
+    box-shadow: 0 0 10px -4px black;
+}
+
+.reg-submit:active {
+    background: rgb(80, 80, 80);
+    transition: 0s;
+}
